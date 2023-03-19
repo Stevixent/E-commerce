@@ -7,6 +7,37 @@
 
 /* 2. Body and Some General Stuff */
 
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    background: #fff;
+    color: #1e1e27;
+}
+
+div{
+   display: block;
+   position: relative;
+   box-sizing: border-box; 
+}
+ul{
+    list-style: none;
+    margin-bottom: 0px;
+}
+p{
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 500;
+    color: #989898;
+    -webkit-font-smoothing: antialiased;
+    
+}
 
 /* ***************************Responsive************************************************ */
 
