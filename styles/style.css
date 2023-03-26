@@ -87,6 +87,15 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 500;
     color: #777777;
 }
+.clearfix::before, .clearfix::after{
+    content: "";
+}
+.clearfix::after{
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
 .super_container{
     width: 100%;
     overflow: hidden;
@@ -323,6 +332,31 @@ h1, h2, h3, h4, h5, h6{
 .grid_sorting_button:hover{
     background: #fe7c7f !important;
 }
+/* 5.2 New Arrival Product Grid */
+.product-grid{
+    width: 100%;
+}
+.product-item{
+    width: 20%;
+    height: 320px;
+    cursor: pointer;
+}
+.product-item::after{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: calc(100% + 1px);
+    height: 100%;
+    pointer-events: none;
+    content: '';
+    border: solid 2px rgba(234, 235, 235, 0);
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+
+
 
 /* ***************************Responsive************************************************ */
 
