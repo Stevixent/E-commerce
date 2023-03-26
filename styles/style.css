@@ -340,6 +340,7 @@ h1, h2, h3, h4, h5, h6{
     width: 20%;
     height: 320px;
     cursor: pointer;
+    
 }
 .product-item::after{
     display: block;
