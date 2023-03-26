@@ -355,6 +355,10 @@ h1, h2, h3, h4, h5, h6{
     border-radius: 3px;
     transition: all 0.3s ease;
 }
+.product-item:hover::after{
+    box-sizing: 0 25px 29px rgba(63, 78, 100, 0.15);
+    border: solid 2px rgba(234, 235, 235, 1);
+}
 
 
 
