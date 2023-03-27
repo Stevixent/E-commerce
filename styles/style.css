@@ -457,10 +457,16 @@ h1, h2, h3, h4, h5, h6{
 .add_to_cart_button{
     width: 100%;
     visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
 }
 .add_to_cart_button a{
     font-size: 12px;
     font-weight: 600;
+}
+.product-item:hover .add_to_cart_button{
+    visibility: visible;
+    opacity: 1;
 }
 
 
