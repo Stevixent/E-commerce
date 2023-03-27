@@ -335,6 +335,7 @@ h1, h2, h3, h4, h5, h6{
 /* 5.2 New Arrival Product Grid */
 .product-grid{
     width: 100%;
+    margin-top: 57px;
 }
 .product-item{
     width: 20%;
@@ -467,6 +468,38 @@ h1, h2, h3, h4, h5, h6{
 .product-item:hover .add_to_cart_button{
     visibility: visible;
     opacity: 1;
+}
+.favorite{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #b9b4c7;
+    width: 17px;
+    height: 17px;
+    visibility: hidden;
+    opacity: 0;
+}
+.favorite_left{
+    left: 15px;
+}
+.favorite.active{
+    visibility: visible;
+    opacity: 1;
+}
+.product-item:hover .favorite{
+    visibility: visible;
+    opacity: 1;
+}
+.favorite.active::after{
+    font-family: 'FontAwesome';
+    content: '\f004';
+}
+.favorite::after{
+    font-family: 'FontAwesome';
+    content: '\f004';
+}
+.favorite:hover::after{
+    color: #fe4c50;
 }
 
 
