@@ -440,6 +440,20 @@ h1, h2, h3, h4, h5, h6{
 .product_bubble_left::after{
     border-color: #51a042 #51a042 transparent transparent;
 }
+.product_bubble_red{
+    background: #fe4c50;
+}
+.product_bubble_green{
+    background: #51a042;
+}
+.product_bubble_left{
+    left: 15px;
+    text-align: center;
+}
+.product_bubble_right{
+    right: 15px;
+    text-align: center;
+}
 
 
 
