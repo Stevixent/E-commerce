@@ -454,6 +454,14 @@ h1, h2, h3, h4, h5, h6{
     right: 15px;
     text-align: center;
 }
+.add_to_cart_button{
+    width: 100%;
+    visibility: hidden;
+}
+.add_to_cart_button a{
+    font-size: 12px;
+    font-weight: 600;
+}
 
 
 
