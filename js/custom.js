@@ -40,6 +40,8 @@ function initTimer()
 {
     if ($('.timer').length) 
     {
+
+        var target_date = new Date("May 5, 2021").getTime();
      
         var date = new Date();
         date.setDate(date.getDate() + 3);
