@@ -29,6 +29,7 @@ jQuery(document).ready(function($)
      initFavorite();
      initIsotopeFiltering();
      initTimer();
+     initSlider();
 
 
 // 2.  Inits Menu
@@ -41,7 +42,7 @@ function initTimer()
     if ($('.timer').length) 
     {
 
-        var target_date = new Date("May 5, 2021").getTime();
+        //var target_date = new Date("May 5, 2021").getTime();
      
         var date = new Date();
         date.setDate(date.getDate() + 3);
@@ -139,37 +140,27 @@ function initIsotopeFiltering(){
 
 // 6.  Init Slider
 
+function initSlider()
+{
+    if ($('.product_slider').length) 
+    {
+        var slider1 = $('.product_slider');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        slider1.owlCarousel({
+            loop:false,
+            dots:false,
+            nav:false,
+            responsive:{
+                0:{items:1},
+                480:{items:2},
+                768:{item:3},
+                991:{items:4},
+                1280:{items:5},
+                1440:{items:5},
+            }
+        });
+    }
+}
 
 
 

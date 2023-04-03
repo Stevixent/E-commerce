@@ -575,6 +575,29 @@ h1, h2, h3, h4, h5, h6{
     height: 340px;
     margin-top: 73px;
 }
+.product_slider_container::after{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: #ffffff;
+    content: '';
+    z-index: 1;
+/* }
+.product_slider{
+    overflow: visible !important;
+}
+.product_slider_item.product-item{
+    height: 340;
+}
+.product_slider_item{
+    width: 20%;
+}
+.product_slider_item .product-item{
+    width: 100% !important;
+} */
 
 
 
